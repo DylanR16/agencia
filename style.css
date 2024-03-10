@@ -1,0 +1,191 @@
+/*tema claro*/
+body{
+    background-color:rgb(241, 245, 249);
+    font-family: "Montserrat", sans-serif;
+    color: rgb(17, 24, 39);
+}
+h1{
+    background-color: rgb(59, 130, 246);
+    border-radius: 10px;
+    text-align: center;
+    padding: 2px;
+}
+div{
+    border-radius: 10px;
+}
+h2{
+    width:max-content;
+    margin: 0 auto 5px auto ;
+    text-align: center;
+    background-color: rgb(59, 130, 246);
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 2px;
+    
+}
+.imagen{
+    width: 80%;
+    margin: 0 auto;
+}
+.tamanno_imagen{
+    width: 100%;
+    border: 3px solid black;
+    border-radius: 10px;
+    
+}
+.descripcion{
+    text-align: center;
+    background-color: rgb(59, 130, 246);
+    border: 2px solid black;
+    border-radius: 10px;
+   
+}
+.ruta{
+    width: 70%;
+    margin: 3px auto 0;
+    text-align: center;
+    background-color: rgb(59, 130, 246);
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.tamanno_ruta{
+    width: 100%
+}
+.paradas{
+    width: 90%;
+    margin: 0 auto 2px;
+    border:solid 2px black;
+    border-collapse: collapse;
+}
+th, td{
+    border:solid 2px black;
+}
+.informacion_variada{
+    height: 140px;
+    width: 80%;
+    margin: 0 auto;
+}
+article{
+    padding: 5px;
+    text-align: center;
+    float: inline-start;
+    width: 30%;
+    background-color: rgb(59, 130, 246);
+    height: 100px;
+    border: solid white 3px;
+    border-radius: 20px;
+}
+
+footer{
+    font-family: "Montserrat", sans-serif;
+    height: max-content;
+    background-color: rgb(59, 130, 246);
+    text-align: right;
+    margin: 0;
+}
+a{
+    font-family: "Montserrat", sans-serif;
+    display: block;
+    margin: 5px 10px 10px;
+    color: rgb(17, 24, 39);
+    text-decoration: none;
+}
+
+/*tema oscuro*/
+@media (prefers-color-scheme: dark) {
+    body{
+        background-color: rgb(31, 41, 55);
+        font-family: "Montserrat", sans-serif;
+        color: white;
+
+        
+    }
+    h1{
+        background-color: rgb(30,58, 138);
+        border-radius: 10px;
+        text-align: center;
+        padding: 2px;
+    }
+    div{
+        border-radius: 10px;
+    }
+    h2{
+        width:max-content;
+        margin: 0 auto 5px auto ;
+        text-align: center;
+        background-color: rgb(30,58, 138);
+        border: 2px solid rgb(55, 65, 81);
+        border-radius: 10px;
+        padding: 2px;
+        
+    }
+    .imagen{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .tamanno_imagen{
+        width: 100%;
+        border: 3px solid rgb(55, 65, 81);
+        border-radius: 10px;
+        
+    }
+    .descripcion{
+        text-align: center;
+        background-color: rgb(30,58, 138);
+        border: 2px solid rgb(55, 65, 81);
+        border-radius: 10px;
+       
+    }
+    .ruta{
+        width: 70%;
+        margin: 3px auto 0;
+        text-align: center;
+        background-color: rgb(30,58, 138);
+        border: 2px solid rgb(55, 65, 81);
+        border-radius: 10px;
+    }
+    
+    .tamanno_ruta{
+        width: 100%
+    }
+    .paradas{
+        width: 90%;
+        margin: 0 auto 2px;
+        border:solid 2px rgb(55, 65, 81);
+        border-collapse: collapse;
+    }
+    th, td{
+        border:solid 2px white;
+    }
+    .informacion_variada{
+        height: 140px;
+        width: 80%;
+        margin: 0 auto;
+    }
+    article{
+        padding: 5px;
+        text-align: center;
+        float: inline-start;
+        width: 30%;
+        background-color: rgb(30,58, 138);
+        height: 100px;
+        border: solid rgb(31, 41, 55) 3px;
+        border-radius: 20px;
+    }
+    
+    footer{
+        font-family: "Montserrat", sans-serif;
+        height: max-content;
+        background-color: rgb(30,58, 138);
+        text-align: right;
+        margin: 0;
+    }
+    a{
+        font-family: "Montserrat", sans-serif;
+        display: block;
+        margin: 5px 10px 10px;
+        color: white;
+        text-decoration: none;
+}
+}
